@@ -1,0 +1,71 @@
+web anotações 
+
+soma de dois números 
+let // var // const
+let= consegue mudar a variável
+var= igual let
+const= não consegue
+
+console.log() = print()
+console.log
+
+// Soma de dois números
+
+let numero1 = 10
+let numero2 = 5
+
+let soma = numero1 + numero2
+let sub = numero1 - numero2
+let div = numero1 / numero2
+let mult = numero1 * numero2
+let media = soma / 2
+
+console.log('Operações matemáticas')
+
+console.log('Soma = ', soma) //Soma = 15
+console.log("Subtração = ", sub) //Subtração = 5
+console.log(`Divisão = ${div}`) //Divisão = 2
+console.log(`Multiplicação = ${mult}`) //Multiplicação = 50
+console.log("Média = ", media) 
+
+let nome = "Helena12345@#"
+let idade = 15
+let sabeJS = false
+
+console.log(typeof nome) //string
+console.log(typeof idade)//number
+console.log(typeof sabeJS)//boolean
+ 
+Crie um programa para calcular a média de três valores
+
+
+let numero1 = 5
+let numero2 = 10
+let numero3 = 2
+
+let media = (numero1 + numero2 + numero3)/3
+
+console.log("a média é: ", media)
+
+
+const estudantes = {
+    aluno: "Helena",
+    idade: 15,
+    RA: "SLT1234",
+    curso: "Informática para internet"
+}
+
+console.log(estudantes.RA)
+
+// // Escreva um código que calcule a  média de três notas e
+// exiba a mensagem "Aprovado" se a média for maior ou
+// igual a 7, ou "Reprovado" caso contrário.
+// 2.
+
+let numero1 = 5
+let numero2 = 10
+let numero3 = 10
+
+let media = (numero1 + numero2 + numero3)/3
+
+console.log("a média é: ", media)
