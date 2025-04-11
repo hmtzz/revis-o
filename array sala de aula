@@ -10,7 +10,7 @@ console.log(cores)
 console.log(cores[0])
 // Para "chamar" o elemento utilize o índice (números)
 
-//propriedade length
+//propriedade length --> é usada para obter o número de elementos de um array ou o número de caracteres de uma string
 console.log(cores.length) //4
 let ultimoElemento = cores[cores.length - 1]//3
 console.log(ultimoElemento)
